@@ -1,0 +1,296 @@
+Script started on Monday 20 January 2020 10:56:12 AM IST
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ touch sree.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ nano sree.txt
+[?1049h[1;41r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[39;33H(B[0;7m[ Reading File ][3d(B[m[39;39H(B[0;7m 7 lines[10d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: sree.txt                                    [3;1H(B[m3[4d1[5d7[6d5[7d2[8d9[40d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[41d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[39d(B[0;7mFile Name to Write: sree.txt                                                    [40;14H(B[m   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[K[41;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[K[39;29H[?25l[31G[39;49m(B[m[1K (B[0;7m[ Wrote 7 lines ](B[m[K[3d[?12l[?25h[40;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[41;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[39d[J[41;80H[41;1H[?1049l[?1l>]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ sort -n sre.txt
+sort: cannot read: sre.txt: No such file or directory
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ sort -n sree.txt
+
+1
+2
+3
+5
+7
+9
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ cut -f3 sree.txt
+3
+1
+7
+5
+2
+9
+
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ cut -f3 sree.txt
+3
+1
+7
+5
+2
+9
+
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ cut f1-3 sree.txt
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ cur=t[K[K[Kt--help
+cut--help: command not found
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ cut --help
+Usage: cut OPTION... [FILE]...
+Print selected parts of lines from each FILE to standard output.
+
+With no FILE, or when FILE is -, read standard input.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -b, --bytes=LIST        select only these bytes
+  -c, --characters=LIST   select only these characters
+  -d, --delimiter=DELIM   use DELIM instead of TAB for field delimiter
+  -f, --fields=LIST       select only these fields;  also print any line
+                            that contains no delimiter character, unless
+                            the -s option is specified
+  -n                      (ignored)
+      --complement        complement the set of selected bytes, characters
+                            or fields
+  -s, --only-delimited    do not print lines not containing delimiters
+      --output-delimiter=STRING  use STRING as the output delimiter
+                            the default is to use the input delimiter
+  -z, --zero-terminated    line delimiter is NUL, not newline
+      --help     display this help and exit
+      --version  output version information and exit
+
+Use one, and only one of -b, -c or -f.  Each LIST is made up of one
+range, or many ranges separated by commas.  Selected input is written
+in the same order that it is read, and is written exactly once.
+Each range is one of:
+
+  N     N'th byte, character or field, counted from 1
+  N-    from N'th byte, character or field, to end of line
+  N-M   from N'th to M'th (included) byte, character or field
+  -M    from first to M'th (included) byte, character or field
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Full documentation at: <http://www.gnu.org/software/coreutils/cut>
+or available locally via: info '(coreutils) cut invocation'
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ noa[K[Kano sreejith.txt
+[?1049h[1;41r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[39;35H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3             File: sreejith.txt                                 [40;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[41d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[1;71H(B[0;7mModified[3d(B[mCEC CS 18 xxx[4dJohn Jafer Janaky[6d--------------------------------[7d#1: Aim/task[8d---------------------------------[9dCommand/Shell script/Program name[11d---------------------------------[13dInput: (If relevant)[14d---------------[16d--------------------------------[17dOutput: or Input & Output (whichever is applicable)[20d-------------------[21dRemarks if any:[27d-------------------------------------[28d-------------------------------------[29d#2:[31d#3:[33d#4:[35d#5:[39d[K[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[ACEC CS 18 xxx    c58[4dnaky              [Ksreejith murali[5d[6;16H[7;13H        fami;l[39d(B[0;7mFile to insert [from ./] :                                                      [40;14H(B[m             (B[0;7m^X(B[m Execute Command        (B[0;7m^T(B[m To Files[K[41;2H(B[0;7mC(B[m Cancel[17X[41;27H(B[0;7mM-F(B[m New Buffer[K[39;28H(B[0;7m6(B[m(B[0;7mc(B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m^(B[m(B[0;7mC(B[m(B[0;7m^(B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m[41;1H[?1049l[?1l>[?1049h[1;40r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3             File: sreejith.txt                       Modified  [3;1H(B[mCEC CS 18 c58[4dsreejith murali[6d--------------------------------[7d#1: fami;l[8d---------------------------------[9dCommand/Shell script/Program name[11d---------------------------------[13dInput: (If relevant)[14d---------------[16d--------------------------------[17dOutput: or Input & Output (whichever is applicable)[20d-------------------[21dRemarks if any:[27d-------------------------------------[28d-------------------------------------[29d#2:[31d#3:[33d#4:[35d#5:[39d(B[0;7mFile to insert [from ./] :                                                      [40;1H^G(B[m Get Help[40;27H(B[0;7m^X(B[m Execute Command[40;53H(B[0;7m^T(B[m To Files[39;28H[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3             File: sreejith.txt                       Modified  [3;1H(B[mCEC CS 18 c58[4dsreejith murali[6d--------------------------------[7d#1: fami;l[8d---------------------------------[9dCommand/Shell script/Program name[11d---------------------------------[13dInput: (If relevant)[14d---------------[16d--------------------------------[17dOutput: or Input & Output (whichever is applicable)[20d-------------------[21dRemarks if any:[27d-------------------------------------[28d-------------------------------------[29d#2:[31d#3:[33d#4:[35d#5:[39d(B[0;7mFile to insert [from ./] :                                                      [40;1H^G(B[m Get Help[40;27H(B[0;7m^X(B[m Execute Command[40;53H(B[0;7m^T(B[m To Files[39;28H[36d[M[40d(B[0;7m^C(B[m Cancel[40;27H(B[0;7mM-F(B[m New Buffer[38;28H(B[0;7m^(B[m(B[0;7mC(B[m(B[0;7mC(B[m(B[0;7mC(B[m(B[0;7m (B[m(B[0;7m (B[m[?25l [1K (B[0;7m[ "^C" not found ](B[m[K[7d[?12l[?25h[39;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[40;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[7;11H   iliarisation of linux c[38d[K[7;31Hommands[38d(B[0;7mFile Name to Write: sreejith.txt                                                [39;14H(B[m   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[K[40;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[K[38;33H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 36 lines ](B[m[K[7;38H[?12l[?25h[1;71H(B[0;7m        [39;14H^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[40;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[7;38H[38d[J[40;80H[40;1H[?1049l[?1l>]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ gedit sreejith.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ gedit sreejith.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ sort --help
+Usage: sort [OPTION]... [FILE]...
+  or:  sort [OPTION]... --files0-from=F
+Write sorted concatenation of all FILE(s) to standard output.
+
+With no FILE, or when FILE is -, read standard input.
+
+Mandatory arguments to long options are mandatory for short options too.
+Ordering options:
+
+  -b, --ignore-leading-blanks  ignore leading blanks
+  -d, --dictionary-order      consider only blanks and alphanumeric characters
+  -f, --ignore-case           fold lower case to upper case characters
+  -g, --general-numeric-sort  compare according to general numerical value
+  -i, --ignore-nonprinting    consider only printable characters
+  -M, --month-sort            compare (unknown) < 'JAN' < ... < 'DEC'
+  -h, --human-numeric-sort    compare human readable numbers (e.g., 2K 1G)
+  -n, --numeric-sort          compare according to string numerical value
+  -R, --random-sort           shuffle, but group identical keys.  See shuf(1)
+      --random-source=FILE    get random bytes from FILE
+  -r, --reverse               reverse the result of comparisons
+      --sort=WORD             sort according to WORD:
+                                general-numeric -g, human-numeric -h, month -M,
+                                numeric -n, random -R, version -V
+  -V, --version-sort          natural sort of (version) numbers within text
+
+Other options:
+
+      --batch-size=NMERGE   merge at most NMERGE inputs at once;
+                            for more use temp files
+  -c, --check, --check=diagnose-first  check for sorted input; do not sort
+  -C, --check=quiet, --check=silent  like -c, but do not report first bad line
+      --compress-program=PROG  compress temporaries with PROG;
+                              decompress them with PROG -d
+      --debug               annotate the part of the line used to sort,
+                              and warn about questionable usage to stderr
+      --files0-from=F       read input from the files specified by
+                            NUL-terminated names in file F;
+                            If F is - then read names from standard input
+  -k, --key=KEYDEF          sort via a key; KEYDEF gives location and type
+  -m, --merge               merge already sorted files; do not sort
+  -o, --output=FILE         write result to FILE instead of standard output
+  -s, --stable              stabilize sort by disabling last-resort comparison
+  -S, --buffer-size=SIZE    use SIZE for main memory buffer
+  -t, --field-separator=SEP  use SEP instead of non-blank to blank transition
+  -T, --temporary-directory=DIR  use DIR for temporaries, not $TMPDIR or /tmp;
+                              multiple options specify multiple directories
+      --parallel=N          change the number of sorts run concurrently to N
+  -u, --unique              with -c, check for strict ordering;
+                              without -c, output only the first of an equal run
+  -z, --zero-terminated     line delimiter is NUL, not newline
+      --help     display this help and exit
+      --version  output version information and exit
+
+KEYDEF is F[.C][OPTS][,F[.C][OPTS]] for start and stop position, where F is a
+field number and C a character position in the field; both are origin 1, and
+the stop position defaults to the line's end.  If neither -t nor -b is in
+effect, characters in a field are counted from the beginning of the preceding
+whitespace.  OPTS is one or more single-letter ordering options [bdfgiMhnRrV],
+which override global ordering options for that key.  If no key is given, use
+the entire line as the key.  Use --debug to diagnose incorrect key usage.
+
+SIZE may be followed by the following multiplicative suffixes:
+% 1% of memory, b 1, K 1024 (default), and so on for M, G, T, P, E, Z, Y.
+
+*** WARNING ***
+The locale specified by the environment affects sort order.
+Set LC_ALL=C to get the traditional sort order that uses
+native byte values.
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Full documentation at: <http://www.gnu.org/software/coreutils/sort>
+or available locally via: info '(coreutils) sort invocation'
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ s[Kgedit sree2.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ sort -d sree2.txt
+h
+hello
+i
+q
+sw
+t
+world 
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ gre[[Kp -i "h" sree2.txt
+[01;31m[Kh[m[Kello
+[01;31m[Kh[m[K
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ ghed[K[K[Kedit sree2.[K[K[Kejith.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ gedit sree3.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ sort -d sree3.txt
+
+_______
+ coconut
+fruits
+ jackfruit
+ mango
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ ged[K[Ksort -d sree3.txt[2Pgedit[C[C[C[C[C[C[C[C[C[C
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ gedit sree3.txt[2@sort -d[C[C[C[C[C[C[C[C[C[C
+
+_______
+ 
+ coconut
+ @fruits
+ jackfruit
+ mango
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ gedit sree4.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ cat sreee[K4.txt
+cars
+______
+ audi
+ lamborghini
+ ford
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ join sree2[K3 sreee[K4.txt
+join: sree3: No such file or directory
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ join sreee[K3 sree4[K]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ join sree3 sree4[K[K[K[K[K[K.tcx[K[Kxt sree4.txt
+join: sree4.txt:2: is not sorted: ______
+join: sree3.txt:3: is not sorted: _______
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ join -1 2 -2 1 sree3.txt sree4 .txt
+join: sree4.txt:2: is not sorted: ______
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ join -1 2 -2 1 <(sort -k 2 sre e3.txt) <(sort sreee[K4>[K.txt)
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ cat sree3.txt
+ 
+ @fruits
+_______
+
+ jackfruit
+ mango
+ coconut
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ car[Kt sree4.txt
+cars
+______
+ audi
+ lamborghini
+ ford
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ cat sree4.txt3.txtjoin -1 2 -2 1 <(sort -k 2 sreee3.txt) <(sort sree4.txt)[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csree3.txt sree4.txt[K[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C<(sort -k 2 sree3.txt) <(sort sree4.txt)
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ join -1 2 -2 1 <(sort -k 2 sreee3.txt) <(sort sree4.txt)[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C <(sort -k 2 sree3[1P[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C<(sort -k 2 sree3.[1P[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[C[C[C[C[C[C[C <(sort -k 2 sree3.t[1P[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[C[C[C[C[C[C <(sort -k 2 sree3.tx[1P[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[C[C[C[C[C<(sort -k 2 sree3.txt[1P[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[C[C[C[C <(sort -k 2 sree3.txt)[1P[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[C[C[C<(sort -k 2 sree3.txt) [1P[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[C[C <(sort -k 2 sree3.txt) <[1P[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[C <(sort -k 2 sree3.txt) <([1P[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C<(sort -k 2 sree3.txt) <(s[1P[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C sree3.txt) <(so[1P[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csree3.txt) <(sor[1P[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+sort: invalid number at field start: invalid count at start of ‘sree3.txt’
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [K]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ history
+    1  cat /etc/hosts
+    2  cat /etc/resolv.conf
+    3  cat /etc/nsswitch.conf
+    4  cat /etc/network/interfaces
+    5  /sbin/ifconfig
+    6  /sbin/ifconfig -a
+    7  /sbin/ifconfig eth0
+    8  /sbin/ifconfig etho
+    9  clear
+   10  ls
+   11  clear
+   12  nano
+   13  clear
+   14  ls -I
+   15  ls -l
+   16  --help
+   17  man grep
+   18  clear
+   19  ps ox
+   20  ps aux
+   21  clear
+   22  top
+   23  touch sree.txt
+   24  nano sree.txt
+   25  cat sree.txt
+   26  nano sree.txt
+   27  cat sree.txt
+   28  sort -n sree.txt
+   29  exit
+   30  touch sree.txt
+   31  nano sree.txt
+   32  sort -n sre.txt
+   33  sort -n sree.txt
+   34  cut -f3 sree.txt
+   35  cut f1-3 sree.txt
+   36  cut--help
+   37  cut --help
+   38  nano sreejith.txt
+   39  gedit sreejith.txt
+   40  sort --help
+   41  gedit sree2.txt
+   42  sort -d sree2.txt
+   43  grep -i "h" sree2.txt
+   44  gedit sreejith.txt
+   45  gedit sree3.txt
+   46  sort -d sree3.txt
+   47  gedit sree3.txt
+   48  sort -d sree3.txt
+   49  gedit sree4.txt
+   50  cat sree4.txt
+   51  join sree3 sree4.txt
+   52  join sree3.txt sree4.txt
+   53  join -1 2 -2 1 sree3.txt sree4.txt
+   54  join -1 2 -2 1 <(sort -k 2 sree3.txt) <(sort sree4.txt)
+   55  cat sree3.txt
+   56  cat sree4.txt
+   57  join -1 2 -2 1 <(sort -k 2 sree3.txt) <(sort sree4.txt)
+   58  join <(sort -k sree3.txt) <(sort sree4.txt)
+   59  history
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [K]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ join sree3.txt sree4.txt >new, [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. txt
+join: sree4.txt:2: is not sorted: ______
+join: sree3.txt:3: is not sorted: _______
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ join sree3.txt sree4.txt >new.ttxt[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ history[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjoin <(sort -k sree3.txt) <(sorrt sree4.txt)[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C-1 2 -2 1 <(sort -k 2 sree[12@3.txt) <(sor[C[C[C[C[C[C[C[C[C[C[C[C[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [17Pcat sree4.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3.txtjoin -1 2 -2 1 <(sort -k 2 sreee3.txt) <(sort sree4.txt)[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csree3.txt sree4.txt[K[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[6Psree3.txt sree4.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P sree4.txt[7Pcat[C[C[C[C[C[C[C[C[C[C[2@gedi[C[C[C[C[C[C[C[C[C[C[Csort -d sree3.txt[2Pgedit[C[C[C[C[C[C[C[C[C[C
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ gedit sree3.txtjoin sree3.txt sree4.txt >new.ttxt[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ history[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjoin <(sort -k sree3.txt) <(sorrt sree4.txt)[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C-1 2 -2 1 <(sort -k 2 sree[12@3.txt) <(sor[C[C[C[C[C[C[C[C[C[C[C[C[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [17Pcat sree4.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3.txtjoin -1 2 -2 1 <(sort -k 2 sreee3.txt) <(sort sree4.txt)[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csree3.txt sree4.txt[K[A]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [C[C[C[C[C[6Psree3.txt sree4.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P sree4.txt[7Pcat[C[C[C[C[C[C[C[C[C[C[2@gedi[C[C[C[C[C[C[C[C[C[C[C
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ join sree3.txt sree4.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ join sree3.txt sree4.txt >new. txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ cat new.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ touch new.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ joij[Kn sree3.txt sree.[K4.txt >new. txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ cat st[K[Knew.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [K]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ join r.sree3.txt r.sree4.txt >new.txt
+join: r.sree3.txt: No such file or directory
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ join r.sree3.txt r.sree4.txt >new.txt^[ >new.txt[ >new.txtC >new.txt[1P >new.txt[1P >new.txt[2P >new.txt[C[1P>new.txt
+join: r.sree3.txt: No such file or directory
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ [K]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ gedit sreejith.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2001[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2001[00m$ exit
+exit
+
+Script done on Monday 20 January 2020 11:49:31 AM IST

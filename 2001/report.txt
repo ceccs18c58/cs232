@@ -1,0 +1,64 @@
+CEC CS 18 c58
+sreejith murali
+
+date: 20/01/2020
+--------------------------------
+#1: familiarisation of linux commands
+---------------------------------
+Command/Shell script/Program name
+sort -n sree.txt
+---------------------------------
+
+Input: (If relevant)
+---------------
+#unsorted file
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+#sorted file
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:familiarisation of grep command
+---------------------------------
+Command/Shell script/Program name
+grep -i "h"sree2.txt
+---------------------------------
+
+Input: (If relevant)
+
+---------------
+#sorted text file
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+#search result
+
+#3:familiaristaion of join command
+---------------------------------
+Command/Shell script/Program name
+join r.sree3.txt r.sree4.txt
+---------------------------------
+
+Input: (If relevant)
+
+---------------
+#sree3.txt
+#sree4.txt
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+#sree3.txt +sree4.txt
+
+
+#4:
+
+#5:
+
+
+
