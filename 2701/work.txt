@@ -1,0 +1,116 @@
+Script started on Monday 27 January 2020 10:27:03 AM IST
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ iconfig etho[K0 192.168.0.30
+The program 'iconfig' is currently not installed. To run 'iconfig' please ask your administrator to install the package 'ipmiutil'
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ifconficonfig eth0 192.168.0.30[1@f
+SIOCSIFADDR: Operation not permitted
+eth0: ERROR while getting interface flags: No such device
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ifconfig
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:67:57  
+          inet addr:192.168.0.162  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::fe50:72:ffb9:e4b9/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:169529 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:13955 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:25820767 (25.8 MB)  TX bytes:2192167 (2.1 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:28972 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:28972 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1918728 (1.9 MB)  TX bytes:1918728 (1.9 MB)
+
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ifconfig eth0
+eth0: error fetching interface information: Device not found
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ifconifg -a
+No command 'ifconifg' found, did you mean:
+ Command 'ifconfig' from package 'net-tools' (main)
+ifconifg: command not found
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ifconifg -a[C[1P[1P[1@f[1@i
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:67:57  
+          inet addr:192.168.0.162  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::fe50:72:ffb9:e4b9/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:173847 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:14787 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:27246588 (27.2 MB)  TX bytes:2288504 (2.2 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:29452 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:29452 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1950408 (1.9 MB)  TX bytes:1950408 (1.9 MB)
+
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ifconfig -a[K[Keth0 up
+eth0: ERROR while getting interface flags: No such device
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ifup eth0
+Unknown interface eth0
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ifup enp1s0
+Unknown interface enp1s0
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ifup enp1s0[2Pth0config eth0 up[1P up[1P up[1P up[1P upe upn upp up1 ups up0 up
+SIOCSIFFLAGS: Operation not permitted
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ gedit report.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ip route list
+169.254.0.0/16 dev enp1s0  scope link  metric 1000 
+192.168.0.0/23 dev enp1s0  proto kernel  scope link  src 192.168.0.162  metric 100 
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ip route listgedit report.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ping 192.`1[K[K168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+From 192.168.0.162 icmp_seq=9 Destination Host Unreachable
+From 192.168.0.162 icmp_seq=10 Destination Host Unreachable
+From 192.168.0.162 icmp_seq=11 Destination Host Unreachable
+From 192.168.0.162 icmp_seq=12 Destination Host Unreachable
+From 192.168.0.162 icmp_seq=13 Destination Host Unreachable
+From 192.168.0.162 icmp_seq=14 Destination Host Unreachable
+From 192.168.0.162 icmp_seq=15 Destination Host Unreachable
+From 192.168.0.162 icmp_seq=16 Destination Host Unreachable
+From 192.168.0.162 icmp_seq=17 Destination Host Unreachable
+From 192.168.0.162 icmp_seq=18 Destination Host Unreachable
+From 192.168.0.162 icmp_seq=19 Destination Host Unreachable
+From 192.168.0.162 icmp_seq=20 Destination Host Unreachable
+From 192.168.0.162 icmp_seq=21 Destination Host Unreachable
+From 192.168.0.162 icmp_seq=22 Destination Host Unreachable
+From 192.168.0.162 icmp_seq=23 Destination Host Unreachable
+64 bytes from 192.168.0.30: icmp_seq=24 ttl=64 time=1.02 ms
+64 bytes from 192.168.0.30: icmp_seq=25 ttl=64 time=0.726 ms
+64 bytes from 192.168.0.30: icmp_seq=26 ttl=64 time=0.612 ms
+64 bytes from 192.168.0.30: icmp_seq=27 ttl=64 time=0.708 ms
+64 bytes from 192.168.0.30: icmp_seq=28 ttl=64 time=0.735 ms
+64 bytes from 192.168.0.30: icmp_seq=29 ttl=64 time=0.730 ms
+64 bytes from 192.168.0.30: icmp_seq=30 ttl=64 time=0.700 ms
+64 bytes from 192.168.0.30: icmp_seq=31 ttl=64 time=0.731 ms
+64 bytes from 192.168.0.30: icmp_seq=32 ttl=64 time=0.727 ms
+64 bytes from 192.168.0.30: icmp_seq=33 ttl=64 time=0.737 ms
+^C
+--- 192.168.0.30 ping statistics ---
+33 packets transmitted, 10 received, +15 errors, 69% packet loss, time 32665ms
+rtt min/avg/max/mdev = 0.612/0.742/1.021/0.104 ms, pipe 4
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ vi[K[Kgedit/etc/resolve.config[C[1P/etc/resolve.config[1P/etc/resolve.config[1P/etc/resolve.config[1P/etc/resolve.config[1P/etc/resolve.configv/etc/resolve.configi/etc/resolve.config
+bash: vi/etc/resolve.config: No such file or directory
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ vi/etc/resolve.config[C[C /etc/resolve.config
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[24;1H"/etc/resolve.config" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?12l[?25h[?25l[m[24;1HType  :quit<Enter>  to exit Vim[24;32H[K[1;1H[?12l[?25h[?25l[24;1H[1mrecording @u[m[24;13H[K[1;1H[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25ly[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;1H[K[1;1H[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1HC[?12l[?25h[?25l[?12l[?25h[?25l[1;23r[1;1H[L[1;24r[1;1HC[?12l[?25h[?25l[?12l[?25h[?25l[1;1H[K[1;1H[?12l[?25h[?25l[24;1HType  :quit<Enter>  to exit Vim[1mrecording @u[m[24;13H[K[1;1H[?12l[?25h[?25l[24;1HType  :quit<Enter>  to exit Vim[1mrecording @u[m[24;13H[K[1;1H[?12l[?25h[?25l[24;1HType  :quit<Enter>  to exit Vim[1mrecording @u[m[24;13H[K[1;1H[?12l[?25h[?25l[24;1HType  :quit<Enter>  to exit Vim[1mrecording @u[m[24;13H[K[1;1H[?12l[?25h[?25l[24;1HType  :quit<Enter>  to exit Vim[1mrecording @u[m[24;13H[K[1;1H[?12l[?25h[24;1H
+[?1l>[?1049l
+[1]+  Stopped                 vi /etc/resolve.config
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ vi /etc/resolve.config[1P /etc/resolve.config[1P /etc/resolve.configg /etc/resolve.confige /etc/resolve.configd /etc/resolve.configi /etc/resolve.configt /etc/resolve.config
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ gedit /etc/resolve.config[1P.config
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ gedit /etc/resolv.config[K[K
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ gedit report.txt
+]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ft[K[Ksfto[Kp 192.1[K[K[K[K[Kcecs[Kcs18c58@192.168.0.30
+^C]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ sftp cseccs18c58@192.168.0.30[1Ps18c58@192.168.0.30[1Ps18c58@192.168.0.30[1Ps18c58@192.168.0.30cs18c58@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ccs18c58@192.168.0.30's password: 
+Permission denied, please try again.
+ccs18c58@192.168.0.30's password: 
+Permission denied, please try again.
+ccs18c58@192.168.0.30'
