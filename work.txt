@@ -1,51 +1,0 @@
-Script started on Monday 27 January 2020 09:09:25 AM IST
-]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ gef[Kdit report.txt
-]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ gedit report.txtls[Kgedit report.txt
-]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ git init
-Initialized empty Git repository in /home/student/ceccs18c58/cs232/2701/.git/
-]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ git pull https://github.com/ce ccs18c58/cs232.git
-remote: Enumerating objects: 10, done.[K
-remote: Counting objects:  10% (1/10)[Kremote: Counting objects:  20% (2/10)[Kremote: Counting objects:  30% (3/10)[Kremote: Counting objects:  40% (4/10)[Kremote: Counting objects:  50% (5/10)[Kremote: Counting objects:  60% (6/10)[Kremote: Counting objects:  70% (7/10)[Kremote: Counting objects:  80% (8/10)[Kremote: Counting objects:  90% (9/10)[Kremote: Counting objects: 100% (10/10)[Kremote: Counting objects: 100% (10/10), done.[K
-remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
-remote: Total 10 (delta 0), reused 0 (delta 0), pack-reused 0[K
-Unpacking objects:  10% (1/10)   Unpacking objects:  20% (2/10)   Unpacking objects:  30% (3/10)   Unpacking objects:  40% (4/10)   Unpacking objects:  50% (5/10)   Unpacking objects:  60% (6/10)   Unpacking objects:  70% (7/10)   Unpacking objects:  80% (8/10)   Unpacking objects:  90% (9/10)   Unpacking objects: 100% (10/10)   Unpacking objects: 100% (10/10), done.
-From https://github.com/ceccs18c58/cs232
- * branch            HEAD       -> FETCH_HEAD
-]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ls
-[0m[01;34m2001[0m  report.txt  work.txt
-]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ if config
-> ifconfig
-> exit
-> 
-Display all 2590 possibilities? (y or n)
-> 
-> n
-> 
-> n
-> ^C
-]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ifconif[K[Kfig
-enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:67:57  
-          inet addr:192.168.0.162  Bcast:192.168.1.255  Mask:255.255.254.0
-          inet6 addr: fe80::fe50:72:ffb9:e4b9/64 Scope:Link
-          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
-          RX packets:20620 errors:0 dropped:0 overruns:0 frame:0
-          TX packets:3641 errors:0 dropped:0 overruns:0 carrier:0
-          collisions:0 txqueuelen:1000 
-          RX bytes:5823000 (5.8 MB)  TX bytes:605448 (605.4 KB)
-
-lo        Link encap:Local Loopback  
-          inet addr:127.0.0.1  Mask:255.0.0.0
-          inet6 addr: ::1/128 Scope:Host
-          UP LOOPBACK RUNNING  MTU:65536  Metric:1
-          RX packets:6012 errors:0 dropped:0 overruns:0 frame:0
-          TX packets:6012 errors:0 dropped:0 overruns:0 carrier:0
-          collisions:0 txqueuelen:1000 
-          RX bytes:402168 (402.1 KB)  TX bytes:402168 (402.1 KB)
-
-]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ping 8.8.9[K8.8
-connect: Network is unreachable
-]0;student@ceclab2-H110M-S2: ~/ceccs18c58/cs232/2701[01;32mstudent@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c58/cs232/2701[00m$ ping 192.169[K8.0.30
-PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
-64 bytes from 192.168.0.30: icmp_seq=1 ttl=64 time=1.18 ms
-64 bytes from 192.168.0.30: icmp_seq=2 ttl=64 time=0.720 ms
-64 bytes from 192.168.0.30: icmp_seq=7 t
