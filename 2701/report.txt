@@ -1,20 +1,24 @@
-CEC CS 18 xxx
-John Jafer Janaky
+CEC CS 18 c58
+sreejith murali
 
 --------------------------------
 #1: Aim/task
 ---------------------------------
 Command/Shell script/Program name
 
+scripting task
 ---------------------------------
 
 Input: (If relevant)
 ---------------
-
+commands:
+ pdftotext -layout pdffile text file
+ grep "matching word" textfile >output file
+ sort -n fn
 --------------------------------
 Output: or Input & Output (whichever is applicable)
 
-
+sorted marks
 -------------------
 Remarks if any:
 
@@ -24,7 +28,29 @@ Remarks if any:
 
 -------------------------------------
 -------------------------------------
-#2:
+#2: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+network setup
+---------------------------------
+
+Input: (If relevant)
+---------------
+commands:
+ ip route show
+ ifconfig -a
+ gedit /etc/resolv.conf
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+ip route show-display linux routing table
+ifconfig -a -display all interface available
+gedit /etc/resolv.conf -editing(read only)
+
+
+-------------------
+Remarks if any:
 
 #3:
 
