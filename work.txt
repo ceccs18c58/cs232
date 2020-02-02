@@ -1,0 +1,9 @@
+Script started on 2020-02-02 20:56:01+0530
+]0;sreejith@sreejith-ubuntu-machine: ~/Desktop/ceccs18c58/cs232/0302[01;32msreejith@sreejith-ubuntu-machine[00m:[01;34m~/Desktop/ceccs18c58/cs232/0302[00m$ ls
+[0m[01;34m2001[0m  [01;34m2701[0m  work.txt
+]0;sreejith@sreejith-ubuntu-machine: ~/Desktop/ceccs18c58/cs232/0302[01;32msreejith@sreejith-ubuntu-machine[00m:[01;34m~/Desktop/ceccs18c58/cs232/0302[00m$ ls
+[0m[01;34m2001[0m  [01;34m2701[0m  work.txt
+]0;sreejith@sreejith-ubuntu-machine: ~/Desktop/ceccs18c58/cs232/0302[01;32msreejith@sreejith-ubuntu-machine[00m:[01;34m~/Desktop/ceccs18c58/cs232/0302[00m$ exit
+exit
+
+Script done on 2020-02-02 20:56:24+0530
