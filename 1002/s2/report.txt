@@ -1,0 +1,58 @@
+CEC CS 18 c58
+sreejith murali
+
+--------------------------------
+#1: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+scripting task
+---------------------------------
+
+Input: (If relevant)
+---------------
+#input 1.pdf file
+#student.txt file
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+#s1-cgpa.txt
+#s2-cgpa.txt
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+creating webpage
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+#sample index http://192.168.0.30/cs18C/cs18C58
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+#edited http://192.168.0.30/cs18C58/cs18C58
+
+-------------------
+Remarks if any:
+
+
+#3:
+
+#4:
+
+#5:
+
+
+
