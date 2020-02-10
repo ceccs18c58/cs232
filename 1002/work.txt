@@ -1,44 +1,0 @@
-Script started on Monday 10 February 2020 09:14:30 AM IST
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit script.sh
-^C
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ [K]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ [K]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ chmod _[K+X[K]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ chmod +X[K[K[K[K[K[K[K[Kclear
-[3;J[H[2J]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ chmod +X script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ ./F[Kscript.sh
-bash: ./script.sh: Permission denied
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ [K]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ ./script.shchmod +X script.shlear[Kgedit script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ [K]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit script.sh[4P./script.shchmod +X script.sh[1@U
-chmod: invalid mode: ‘U+X’
-Try 'chmod --help' for more information.
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ chmod U+X script.sh[1P[1@u[C[C[C[C[C[C[C[C[C[C[C
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ chmod u+X script.shU[C[C[C[C[C[C[C[C[C[C[C[C[4Pgedit[C[C[C[C[C[C[C[C[C[C[4P./script.sh
-bash: ./script.sh: Permission denied
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ ./script.shchmod u+X script.sh[C[1P script.shx script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ chmod u+x script.sh[8P./script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ touch script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ cat scrpit.sh
-cat: scrpit.sh: No such file or directory
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ cat scrpit.shtouch script.sh[4P./script.shchmod u+x script.sh[8P./script.shchmod u+X script.shU[C[C[C[C[C[C[C[C[C[C[C[C[4Pgedit[C[C[C[C[C[C[C[C[C[C
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit student.txt
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit student.txt[2Pcript.shtudent.txt[2Pcript.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit script.shtudent.txt[2Pcript.sh[2Pcat scrpit.shtouch script.sh[4P./script.shchmod u+x script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ chmod u+x script.sh[4Pgedit[C[C[C[C[C[C[C[C[C[Ctudent.txt[2Pcript.sh[2Pcat scrpit.shtouch script.sh[4P./script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ ./script.shchmod u+x script.sh[4Pgedit[C[C[C[C[C[C[C[C[C[C
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit script.sh[4P./script.shchmod u+x script.sh[4Pgedit[C[C[C[C[C[C[C[C[C[Ctudent.txt[2Pcript.shtudent.txt
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit student.txt[2Pcript.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit script.sh
-^C
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit script.shtudent.txt[2Pcript.sh[4P./script.shchmod u+x script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ chmod u+x script.sh[4Pgedit[C[C[C[C[C[C[C[C[C[Ctudent.txt[2Pcript.sh[4P./script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ ./script.shchmod u+x script.sh[4Pgedit[C[C[C[C[C[C[C[C[C[C
-^C
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit script.sh[4P./script.shgedit script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit script.sh[4P./script.shchmod u+x script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ chmod u+x script.sh[4Pgedit[C[C[C[C[C[C[C[C[C[C[4P./script.sh
-rm: cannot remove '1..txt': No such file or directory
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ ./script.shchmod u+x script.sh[4Pgedit[C[C[C[C[C[C[C[C[C[C
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c58/cs232/1002[01;32ms4c2@ceclab-Veriton-Series[00m:[01;34m~/ceccs18c58/cs232/1002[00m$ gedit script.sh[4P./script.shchmod u+x script.sh
-]0;s4c2@ceclab-Veriton-Series: ~/ceccs18c5
