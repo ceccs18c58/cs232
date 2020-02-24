@@ -1,7 +1,0 @@
-hello
-world 
-t
-sw
-h
-q
-i
