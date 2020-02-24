@@ -1,0 +1,60 @@
+CEC CS 18 c58
+Sreejith murali
+
+
+HWaddress-10:78:d2:e0:ae:26
+--------------------------------
+#1: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+ssh,rsync,scp familiarisation
+---------------------------------
+
+Input: (If relevant)
+---------------
+ssh ceccs18c58@192.168.0.30 -to log into a remote machine
+rsync -a
+rsync -b =make backups
+scp report.txt  cs18c58@192.168.0.30:2402 =to upload report
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:#1: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+creating webpage at server
+---------------------------------
+
+Input: (If relevant)
+---------------
+editing links
+to put  the page to the server sftp
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+page can be viewed at
+http://192.168.0.30/cs17d/cs18c58
+-------------------
+Remarks if any:
+
+
+#3:
+
+#4:
+
+#5:
+
+
+
