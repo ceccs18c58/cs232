@@ -1,0 +1,32 @@
+CEC CS 18 c58
+Sreejith Murali
+--------------------------------
+#6: Aim/task
+---------------------------------
+Command/Shell script/Program name
+task 6:
+
+installation of linux using dvd
+---------------------------------
+
+Input: (If relevant)
+---------------
+disc containing manjaro ISO file
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+installed linux
+
+*attached corresponding screenshots
+
+-------------------
+Remarks if any:
+
+
+
+
+
+----------------------------------
+
+
+
