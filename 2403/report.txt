@@ -1,0 +1,71 @@
+CEC CS 18 C58
+
+Sreejith murali
+
+
+
+--------------------------------
+
+#6: Aim/task
+task 6
+---------------------------------
+
+Command/Shell script/Program name
+
+linux installation using disk
+
+---------------------------------
+
+
+
+Input: (If relevant)
+
+---------------
+disc containing Manjaro ISO file
+
+
+--------------------------------
+
+Output: or Input & Output (whichever is applicable)
+
+installed manjaro
+
+*attached corresponding screenshots
+
+-------------------
+
+Remarks if any:
+
+*re-uploading due to file permission issue
+
+
+
+
+
+
+
+
+
+-------------------------------------
+
+-------------------------------------
+
+#2:
+
+
+
+#3:
+
+
+
+#4:
+
+
+
+#5:
+
+
+
+
+
+
