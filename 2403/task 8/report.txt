@@ -1,0 +1,179 @@
+CEC CS 18 C58
+
+Sreejith murali
+
+
+
+--------------------------------
+
+#1: Aim/task
+task 6
+---------------------------------
+
+Command/Shell script/Program name
+
+linux installation using disk
+
+---------------------------------
+
+
+
+Input: (If relevant)
+
+---------------
+disc containing Manjaro ISO file
+
+
+--------------------------------
+
+Output: or Input & Output (whichever is applicable)
+
+installed manjaro
+
+*attached corresponding screenshots
+
+-------------------
+
+Remarks if any:
+
+*re-uploading due to file permission issue
+
+
+
+
+-------------------------------------
+
+-------------------------------------
+
+#2: Aim/task
+task 8(2)
+---------------------------------
+
+Command/Shell script/Program name
+
+perl
+
+#factorial.pl
+ *to find the factorial of a number
+
+#palindrome.pl
+  *to check a number is palindrome
+
+#leapyear.pl
+  *to find leapyear in a given span
+
+---------------------------------
+
+
+Output: or Input & Output (whichever is applicable)
+
+#factorial.pl
+
+enter a number:5
+factorial is 120
+
+#palindrome.pl
+
+enter a number:122
+not palindrome
+
+#leapyear.pl
+
+enter startyear:2020
+enter endyear:2035
+leap year are
+2024
+2028
+2032
+
+-------------------
+
+Remarks if any:
+
+
+-------------------------------------
+
+-------------------------------------
+
+
+
+
+#3: Aim/task
+task 8(4)
+---------------------------------
+
+Command/Shell script/Program name
+
+kernel compilation
+
+---------------------------------
+
+
+
+Input: (If relevant)
+
+---------------
+*Getting the latest linux kernel source code
+ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.xz
+
+*Extracting tar.xz file
+ unxz -v linux-5.5.9.tar.xz
+
+*verifying linux kernel tartball with pgp
+ gpg --verify linux-5.5.9.tar.sign
+
+
+*configuring linux modules 
+ cd linux-5.5.9
+ cp -v /boot/config-$(uname -r) .config
+
+
+*Installing required tools
+ sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+
+
+*compiling the kernel
+ make -j $(nproc)
+
+--------------------------------
+
+Output: or Input & Output (whichever is applicable)
+
+kernel compilation successful
+
+*attached kernel.png
+
+-------------------
+
+Remarks if any:
+
+caused errors while using old package version 5.4.1
+
+fixed errors using the version 5.5.9
+
+
+
+
+
+
+
+
+
+-------------------------------------
+
+-------------------------------------
+
+
+
+
+#4:
+
+
+
+#5:
+
+
+
+
+
+
