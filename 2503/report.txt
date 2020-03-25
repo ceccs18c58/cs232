@@ -1,0 +1,116 @@
+CEC CS 18 c58
+Sreejith murali
+
+--------------------------------
+#1: Aim/task
+
+task 8(1)
+---------------------------------
+Command/Shell script/Program name
+
+package management in linux
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+
+1.To list all packages installed on a system
+  	#dpkg -l
+
+2.To list files installed by a package
+	#dpkg -L ufw
+
+3.To install network scanner nmap
+	#sudo apt install nmap
+
+4.To remove nmap
+	#sudo apt remove nmap
+
+5.To update the package index
+	#sudo apt update
+
+6.To upgrade a package
+	#sudo apt upgrade
+
+7.To install apticron package
+	#sudo apt install apticron
+
+8.To list all installed packages
+	#sudo apt list >package.txt
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+All installed packages are available at:package.txt
+
+-------------------
+Remarks if any:
+
+
+*sudo apt upgrade is stopped at 9% ,since it was un-necessary
+
+
+-------------------------------------
+-------------------------------------
+#2: Aim/task
+
+task 8(3)
+---------------------------------
+Command/Shell script/Program name
+
+LAMP stack
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+
+1.Install apache server 
+	#sudo apt-get install apache2
+
+2.Install MySQL
+	#sudo apt-get install mysql-server
+
+3.Install PHP
+	#sudo apt-get install php libapache2-mod-php php-mysql
+
+4.Modify apache server files
+	#sudo nano /etc/apache2/mods-enabled/dir.conf
+
+5.Restart apache
+	#sudo system restart apache2
+
+6.Testing PHP on web server
+	#sudo nano /var/www/html/info.php
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+php files can be viewed at 
+
+  #192.168.43.51/info.php
+  #192.168.43.51/index.php
+  
+ 	#correspnding screenshots are attched
+
+-------------------
+Remarks if any:
+
+----------------------------------------------------------
+--------------------------------------------
+
+
+
+#3:
+
+#4:
+
+#5:
+
+
+
