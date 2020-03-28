@@ -1,0 +1,62 @@
+CEC CS 18 c58
+Sreejith murali
+
+--------------------------------
+#1: Aim/task
+
+task 6
+---------------------------------
+Command/Shell script/Program name
+
+
+Set up an ftp and http server
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+
+1.ftp server
+
+#sudo apt-get update
+#sudo apt-install vsftpd
+#sudo nano /etc/vsftpd.conf
+#systemctl vsftpd restart
+
+
+2.HTTP server
+
+#sudo apt-get install apache2
+#sudo systemctl status apache2
+#editing page using nano
+
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+#page can be viewed at #ceccs18c58.com
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
+
