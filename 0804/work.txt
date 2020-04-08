@@ -1,0 +1,312 @@
+Script started on 2020-04-08 16:22:29+0530
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ gedit s4.sh
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ chmod u+x s4.sh
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ ./s4.sh
+Your username: sreejith
+
+
+Currently logged user:
+sreejith :0           2020-04-07 13:34 (:0)
+
+
+Your current shell:
+/bin/bash
+
+
+List of all available shells:
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+
+
+Your home directory:
+/home/sreejith
+
+
+Your current path setting:
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+
+Your current working directory:
+/home/sreejith/ceccs18c58/cs232/0804
+
+
+No of currently logged users:
+sreejith :0           2020-04-07 13:34 (:0)
+
+
+Your operating system type:
+GNU/Linux
+
+
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ gedit report.txt
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ ifconfg[Kig
+enp3s0f1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether d8:c4:97:40:28:84  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 10397  bytes 912635 (912.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 10397  bytes 912635 (912.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.43.51  netmask 255.255.255.0  broadcast 192.168.43.255
+        inet6 2402:3a80:50f:32d2:e083:2de7:37a3:d54  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::854e:7ba6:7322:b4b8  prefixlen 64  scopeid 0x20<link>
+        ether b8:08:cf:e0:df:35  txqueuelen 1000  (Ethernet)
+        RX packets 73116  bytes 40356835 (40.3 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 72226  bytes 11103344 (11.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ ifconfiggedit report.txt
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ curl ifconfig.co
+2402:3a80:50f:32d2:911e:7ff7:602d:d9cb
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ curl ifconfig.co[K[Kme
+42.109.144.72]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ ed[K[Kgedit s5.sh
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ chmod u+x s5.sh
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ chmod u+x s5.sh[4Pgedit[C[C[C[C[C[Ccurl ifconfig.mecogedit report.txt[8Pifconfiggedit report.txt[9P./s4.sh[1P.sh5.sh
+Your OS information:
+NAME="Ubuntu"
+VERSION="18.04.1 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.1 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+
+Kernel version:
+4.15.0-29-generic
+
+
+All available shells:
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+
+
+CPU information:
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              4
+On-line CPU(s) list: 0-3
+Thread(s) per core:  2
+Core(s) per socket:  2
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               78
+Model name:          Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz
+Stepping:            3
+CPU MHz:             1999.999
+CPU max MHz:         2000.0000
+CPU min MHz:         400.0000
+BogoMIPS:            3984.00
+Virtualization:      VT-x
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            256K
+L3 cache:            3072K
+NUMA node0 CPU(s):   0-3
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm arat pln pts hwp hwp_notify hwp_act_window hwp_epp
+
+
+Hard disk information:
+WARNING: you should run this program as super-user.
+DMI   SMP   PA-RISC       device-tree           SPD   memory      /proc/cpuinfo             CPUID     PCI (sysfs)           ISA PnP       PCMCIA      PCMCIA      Virtual I/O (VIRTIO) devices                            kernel device tree (sysfs)                          USB   IDE   SCSI    Network interfaces                  Framebuffer devices                   Display       CPUFreq       ABI     *-storage
+       description: SATA controller
+       product: Sunrise Point-LP SATA Controller [AHCI mode]
+       vendor: Intel Corporation
+       physical id: 17
+       bus info: pci@0000:00:17.0
+       version: 21
+       width: 32 bits
+       clock: 66MHz
+       capabilities: storage ahci_1.0 bus_master cap_list
+       configuration: driver=ahci latency=0
+       resources: irq:127 memory:b1228000-b1229fff memory:b122f000-b122f0ff ioport:4080(size=8) ioport:4088(size=4) ioport:4060(size=32) memory:b122d000-b122d7ff
+  *-scsi
+       physical id: 2
+       logical name: scsi1
+       capabilities: emulated
+     *-cdrom
+          description: DVD writer
+          product: DVD A  DA8AESH
+          vendor: Slimtype
+          physical id: 0.0.0
+          bus info: scsi@1:0.0.0
+          logical name: /dev/cdrom
+          logical name: /dev/cdrw
+          logical name: /dev/dvd
+          logical name: /dev/dvdrw
+          logical name: /dev/sr0
+          version: XA1M
+          capabilities: removable audio cd-r cd-rw dvd dvd-r
+          configuration: ansiversion=5 status=nodisc
+WARNING: output may be incomplete or inaccurate, you should run this program as super-user.
+
+
+Memory information:
+MemTotal:        3913948 kB
+MemFree:          428620 kB
+MemAvailable:    1899688 kB
+Buffers:          159104 kB
+Cached:          1410208 kB
+SwapCached:            0 kB
+Active:          1976100 kB
+Inactive:        1184992 kB
+Active(anon):    1292240 kB
+Inactive(anon):   265104 kB
+Active(file):     683860 kB
+Inactive(file):   919888 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:       2097148 kB
+SwapFree:        2097148 kB
+Dirty:            131800 kB
+Writeback:             0 kB
+AnonPages:       1591868 kB
+Mapped:           481532 kB
+Shmem:            266368 kB
+Slab:             203412 kB
+SReclaimable:     149724 kB
+SUnreclaim:        53688 kB
+KernelStack:       12064 kB
+PageTables:        51032 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     4054120 kB
+Committed_AS:    7239068 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      198260 kB
+DirectMap2M:     3870720 kB
+DirectMap1G:           0 kB
+
+
+File system information:
+sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
+proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
+udev /dev devtmpfs rw,nosuid,relatime,size=1927464k,nr_inodes=481866,mode=755 0 0
+devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
+tmpfs /run tmpfs rw,nosuid,noexec,relatime,size=391396k,mode=755 0 0
+/dev/sda6 / ext4 rw,relatime,errors=remount-ro,data=ordered 0 0
+securityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,nodev 0 0
+tmpfs /run/lock tmpfs rw,nosuid,nodev,noexec,relatime,size=5120k 0 0
+tmpfs /sys/fs/cgroup tmpfs ro,nosuid,nodev,noexec,mode=755 0 0
+cgroup /sys/fs/cgroup/unified cgroup2 rw,nosuid,nodev,noexec,relatime,nsdelegate 0 0
+cgroup /sys/fs/cgroup/systemd cgroup rw,nosuid,nodev,noexec,relatime,xattr,name=systemd 0 0
+pstore /sys/fs/pstore pstore rw,nosuid,nodev,noexec,relatime 0 0
+efivarfs /sys/firmware/efi/efivars efivarfs rw,nosuid,nodev,noexec,relatime 0 0
+cgroup /sys/fs/cgroup/hugetlb cgroup rw,nosuid,nodev,noexec,relatime,hugetlb 0 0
+cgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0
+cgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpu,cpuacct 0 0
+cgroup /sys/fs/cgroup/net_cls,net_prio cgroup rw,nosuid,nodev,noexec,relatime,net_cls,net_prio 0 0
+cgroup /sys/fs/cgroup/memory cgroup rw,nosuid,nodev,noexec,relatime,memory 0 0
+cgroup /sys/fs/cgroup/devices cgroup rw,nosuid,nodev,noexec,relatime,devices 0 0
+cgroup /sys/fs/cgroup/cpuset cgroup rw,nosuid,nodev,noexec,relatime,cpuset 0 0
+cgroup /sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0
+cgroup /sys/fs/cgroup/freezer cgroup rw,nosuid,nodev,noexec,relatime,freezer 0 0
+cgroup /sys/fs/cgroup/rdma cgroup rw,nosuid,nodev,noexec,relatime,rdma 0 0
+cgroup /sys/fs/cgroup/pids cgroup rw,nosuid,nodev,noexec,relatime,pids 0 0
+systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=32,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=810 0 0
+hugetlbfs /dev/hugepages hugetlbfs rw,relatime,pagesize=2M 0 0
+configfs /sys/kernel/config configfs rw,relatime 0 0
+mqueue /dev/mqueue mqueue rw,relatime 0 0
+debugfs /sys/kernel/debug debugfs rw,relatime 0 0
+fusectl /sys/fs/fuse/connections fusectl rw,relatime 0 0
+/dev/loop0 /snap/gnome-calculator/180 squashfs ro,nodev,relatime 0 0
+/dev/loop1 /snap/gnome-logs/37 squashfs ro,nodev,relatime 0 0
+/dev/loop2 /snap/gtk-common-themes/1440 squashfs ro,nodev,relatime 0 0
+/dev/loop5 /snap/core18/1668 squashfs ro,nodev,relatime 0 0
+/dev/loop6 /snap/gnome-system-monitor/51 squashfs ro,nodev,relatime 0 0
+/dev/loop12 /snap/core18/1705 squashfs ro,nodev,relatime 0 0
+/dev/loop9 /snap/gnome-logs/93 squashfs ro,nodev,relatime 0 0
+/dev/loop10 /snap/gnome-characters/103 squashfs ro,nodev,relatime 0 0
+/dev/loop11 /snap/gnome-system-monitor/135 squashfs ro,nodev,relatime 0 0
+/dev/loop8 /snap/gnome-calculator/704 squashfs ro,nodev,relatime 0 0
+/dev/loop3 /snap/gnome-3-26-1604/98 squashfs ro,nodev,relatime 0 0
+/dev/loop4 /snap/core/8689 squashfs ro,nodev,relatime 0 0
+/dev/loop15 /snap/gtk-common-themes/1474 squashfs ro,nodev,relatime 0 0
+/dev/loop13 /snap/gnome-3-26-1604/70 squashfs ro,nodev,relatime 0 0
+/dev/loop7 /snap/gnome-characters/495 squashfs ro,nodev,relatime 0 0
+/dev/loop14 /snap/gnome-3-28-1804/116 squashfs ro,nodev,relatime 0 0
+/dev/loop16 /snap/core/8935 squashfs ro,nodev,relatime 0 0
+/dev/sda2 /boot/efi vfat rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 0
+tmpfs /run/user/121 tmpfs rw,nosuid,nodev,relatime,size=391392k,mode=700,uid=121,gid=125 0 0
+tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=391392k,mode=700,uid=1000,gid=1000 0 0
+gvfsd-fuse /run/user/1000/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
+
+
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ gedit report.txt
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ gedit calculator.sh
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ gedit calculator.sh[3Preport.txt[9P./s5.shgedit report.txt[9P./s5.shchmod u+x s5.sh[1P.sh[1P.shc.sha.shl.shc.shu.shl.sha.sht.sho.shr.sh
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ chmod u+x calculator.sh[4Pgedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Preport.txt[9P./s5.sh[1P.sh[1P.shc.sha.shl.shc.shu.shl.sha.sht.sho.shr.sh
+Enter first number:
+4
+Enter second number:
+3
+Enter choice:
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+
+Your selected operation:
+4
+./calculator.sh: line 24: syntax error: unexpected end of file
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ ./calculator.shchmod u+x calculator.sh[8P./calculator.shchmod u+x calculator.sh[4Pgedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ gedit calculator.sh[4P./calculator.shchmod u+x calculator.sh
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ chmod u+x calculator.sh[4Pgedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P./calculator.sh
+Enter first number:
+5
+Enter second number:
+2
+Enter choice:
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+
+Your selected operation:
+4
+Result = 2.50
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ gedit report.txt
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/0804[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/0804[00m$ exit
+exit
+
+Script done on 2020-04-08 17:09:21+0530

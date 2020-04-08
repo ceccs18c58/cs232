@@ -1,0 +1,118 @@
+CEC CS 18 C58
+Sreejith murali
+HW ADDRESS:192.168.43.51
+--------------------------------
+#1: Aim/task
+
+S4
+
+---------------------------------
+Command/Shell script/Program name
+
+
+shell programming:shell script to show various system configurations
+
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+#Commands
+1.echo $USER                  /*Username
+2.who                        /*Logged user
+3.echo $SHELL               /*Current shell
+4.cat /etc/shells          /*All shells
+5.echo $HOME              /*Home directory
+6.echo $PATH             /*Current path setting
+7.pwd                   /*current working directory
+8.who                  /*No of logged users
+9.uname -o            /*OS type
+
+--------------------------------
+
+
+Output: or Input & Output (whichever is applicable)
+
+
+
+Displaying various system configurations
+
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2: Aim/task
+
+S5
+---------------------------------
+Command/Shell script/Program name
+
+
+shell programming:shell script to show various system configurations
+
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+#Commands
+1.cat /etc/os-release                      /*OS info
+2.uname -r                                /*kernel version
+3.cat /etc/shells                        /*available shells
+4.lscpu                                 /*CPU info
+5.lshw -class disk -class storage      /*Hard disk info
+6.cat /proc/mounts                    /*Files mounted
+7.cat /proc/meminfo                  /*Memory info
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+
+Displaying various system configurations
+
+-------------------
+Remarks if any:
+
+
+------------------------------
+------------------------------------------
+#3: Aim/task
+
+S6
+
+---------------------------------
+Command/Shell script/Program name
+
+
+Implement a menu driven calculator using shell script
+
+
+---------------------------------
+
+
+Output: or Input & Output (whichever is applicable)
+
+
+calculator.sh
+
+-------------------
+Remarks if any:
+
+
+
+#4:
+
+#5:
+
+
+
