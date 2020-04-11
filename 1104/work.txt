@@ -1,0 +1,128 @@
+Script started on 2020-04-11 21:28:22+0530
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ gedit ulist.txt
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ gedit addnames.sh
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ chmod u+x addnames.sh
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ ./addnames.sh
+Nope !!! that wasn't the correct no of arguments
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ ./addnames example
+bash: ./addnames: No such file or directory
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ ./addnames example. examples exampleh example
+Nope !!! that wasn't the correct no of arguments
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ ./addnames.sh example abc.txt
+ 
+File does not exist!
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ ./addnames.sh example abc.txt[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksreejith ulist.txt
+ 
+Please wait
+Writing to file
+ 
+Display contents:
+sreejtih
+aravind
+ajith
+arjun
+sreejith
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ ./addnames.sh sreejith ulist.txt[1P ulist.txt[1P ulist.txt[1P ulist.txt[1P ulist.txt[1P ulist.txt[1P ulist.txt[1P ulist.txt[1P ulist.txta ulist.txtr ulist.txtj ulist.txtu ulist.txtn ulist.txt[C[C[C[C[C[C[1P.txt[1P.txt[1P.txt[1P.txt[1P.txta.txtb.txtc.txt
+ 
+File does not exist!
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ ./addnames.sh arjun abc.txt[1P.txt[1P.txt[1P.txtu.txtl.txti.txts.txtt.txt
+ 
+Username already exists
+Display contents:
+ 
+sreejtih
+aravind
+ajith
+arjun
+sreejith
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ ./addnames.sh arjun ulist.txt[C[2Pabc.txtsreejith ulist.txt[3Pexample abc.txt[K[3P example[5P.shchmod u+x addnames.sh[4Pgedit[C[C[C[C[C[C[C[C[C[C[C[C[2Pulist.txt
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ gedit ulist.txt[14@./addnames.sh arjun[C[C[C[C[C[C[C[C[C[C[2Pabc.txtsreejith ulist.txt
+ 
+Username already exists
+Display contents:
+ 
+sreejith
+aravind
+ajith
+arjun
+
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ ./addnames.sh sreejith ulist.txt[C[C[C[1P ulist.txt[1P ulist.txt[1P ulist.txt[1P ulist.txt[1P ulist.txt[1P ulist.txt[1P ulist.txt[1P ulist.txta ulist.txtj ulist.txti ulist.txtt ulist.txth ulist.txt
+ 
+Username already exists
+Display contents:
+ 
+sreejith
+aravind
+ajith
+arjun
+
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ ./addnames.sh ajith ulist.txt[C[1P ulist.txt[1P ulist.txt[1P ulist.txt[1P ulist.txt[1P ulist.txtn ulist.txte ulist.txtw ulist.txtn ulist.txta ulist.txtm ulist.txte ulist.txt
+ 
+Please wait
+Writing to file
+ 
+Display contents:
+sreejith
+aravind
+ajith
+arjun
+
+newname
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ ./addnames.sh newname ulist.txt2 ulist.txt
+ 
+Please wait
+Writing to file
+ 
+Display contents:
+sreejith
+aravind
+ajith
+arjun
+
+newname
+newname2
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ host myip.opendns.com resolver1.o pendns.com
+Using domain server:
+Name: resolver1.opendns.com
+Address: 208.67.222.222#53
+Aliases: 
+
+myip.opendns.com has address 42.109.140.96
+myip.opendns.com has IPv6 address 2402:3a80:51f:6083:dced:69b7:6e0f:834b
+Host myip.opendns.com not found: 3(NXDOMAIN)
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ gedit report.txt
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ ifconfig
+enp3s0f1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether d8:c4:97:40:28:84  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 11778  bytes 739440 (739.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 11778  bytes 739440 (739.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.43.51  netmask 255.255.255.0  broadcast 192.168.43.255
+        inet6 fe80::854e:7ba6:7322:b4b8  prefixlen 64  scopeid 0x20<link>
+        inet6 2402:3a80:51f:6083:4ca8:59e6:c825:13f6  prefixlen 64  scopeid 0x0<global>
+        inet6 2402:3a80:51f:6083:dced:69b7:6e0f:834b  prefixlen 64  scopeid 0x0<global>
+        ether b8:08:cf:e0:df:35  txqueuelen 1000  (Ethernet)
+        RX packets 503  bytes 167021 (167.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 627  bytes 116023 (116.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ curl https://ipinfo.io/ip
+42.109.155.227
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ curl https://ipinfo.io/ipifconfig[Kgedit report.txt
+]0;sreejith@sreejith-Toy: ~/ceccs18c58/cs232/1104[01;32msreejith@sreejith-Toy[00m:[01;34m~/ceccs18c58/cs232/1104[00m$ exit
+exit
+
+Script done on 2020-04-11 21:46:49+0530

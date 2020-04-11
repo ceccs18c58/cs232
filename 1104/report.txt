@@ -1,0 +1,38 @@
+CEC CS 18 C58
+Sreejith murali
+Public IP:42.109.155.217
+
+--------------------------------
+#1: Aim/task
+
+S7
+---------------------------------
+Command/Shell script/Program name
+
+scripting task
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+addnames.sh
+ulist.txt
+-------------------
+Remarks if any:
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
+
